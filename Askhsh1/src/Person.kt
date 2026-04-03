@@ -1,4 +1,4 @@
-public abstract class Person(val name: String, var age: Int){
+public abstract class Person(open val name: String, open val age: Int){
     abstract fun introduce(): String
     fun info() {
         println("Ονομα $name, Ηλικια: $age")
